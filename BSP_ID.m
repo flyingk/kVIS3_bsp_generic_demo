@@ -22,13 +22,12 @@ function [BSP_Info] = BSP_ID()
 % BSP ID function
 
 % Name of BSP
-BSP_Info.Name = 'PX4';
+BSP_Info.Name = 'kVIS_DemoBSP';
 
 BSP_Info.Version = '001';
 
 % Data import function name
-BSP_Info.importFcn = {'PX4 .ulg File'  , 'import_px4_file';
-                      'PX4 .ulg Folder', 'import_px4_folder'};
+BSP_Info.importFcn = {''};
 
 % a custom plot definition for a single axes plot to be shown on the main
 % axes after import of data
@@ -44,5 +43,5 @@ BSP_Info.aircraftVisualModelFile = '';
 
 BSP_Info.customTabs = {};
 
-BSP_Info.addOns = {'Create SIDPAC file','fill_fdata_Callback'};
+BSP_Info.addOns = {''};
 
