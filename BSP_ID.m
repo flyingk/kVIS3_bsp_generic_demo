@@ -27,21 +27,11 @@ BSP_Info.Name = 'kVIS_DemoBSP';
 BSP_Info.Version = '001';
 
 % Data import function name
-BSP_Info.importFcn = {''};
+BSP_Info.importFcn = {'',''};
 
-% a custom plot definition for a single axes plot to be shown on the main
-% axes after import of data
-BSP_Info.importPlot = '';
-
-BSP_Info.armedChannel = '';
-
-BSP_Info.flightModeChannel = '';
-
-BSP_Info.mapChannels = {};
-
-BSP_Info.aircraftVisualModelFile = '';
+BSP_Info.defaultImportFcn = '';
 
 BSP_Info.customTabs = {};
 
-BSP_Info.addOns = {''};
+BSP_Info.addOns = {'Sensor Check', '', 'SensorCheckGroup';};
 
