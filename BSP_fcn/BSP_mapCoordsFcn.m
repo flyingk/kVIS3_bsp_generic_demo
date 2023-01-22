@@ -1,6 +1,6 @@
 function [lat, lon, alt, t] = BSP_mapCoordsFcn(fds)
 
-group = 'vehicle_GPS_position_0';
+group = 'GPS';
 
 t = kVIS_fdsGetChannel(fds, group, 'Time');
 
